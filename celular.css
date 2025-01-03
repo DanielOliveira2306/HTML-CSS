@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@media screen and (max-width: 500px) {
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #84E1AD;
+    text-align: justify;
+}
+
+header{
+    text-align: center;
+    background: linear-gradient(to bottom, #37C779, #1F6F43);
+    height: 230px;
+    color: white;
+}
+
+header > h1{
+    padding: 20px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+header > nav{
+    text-align: left;
+    margin-top: 25px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    position: relative;
+}
+
+header > nav > a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.1s ease-in-out;
+}
+
+header > nav > a:hover::after {
+    width: 100%;
+}
+
+main{
+    background-color: white;
+    min-width: none;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+main > section > p > a{
+    color: #1F6F43;
+    text-decoration: none;
+}
+
+main > h1, h2{
+    margin: 5px;
+}
+
+h2#mascoteh2{
+    text-align: start;
+}
+
+.degrade{
+    background: linear-gradient(to right, #1f6f4371, white);
+    padding-left: 10px;
+}
+
+main > section >  p{
+    text-indent: 25px;
+}
+
+img{
+    width: 100%;
+}
+
+picture#irina{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+img#bugdroid{
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    outline: #1A5C38 solid 10px;
+}
+
+section#final > h3{
+    background-color: #1F6F43;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section#final{
+    background-color: #84E1AD;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.pfinal{
+    text-align: center;
+}
+
+ul{
+    columns: 2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p#espaço{
+    margin-top: 5px;
+}
+
+p > a{
+    text-decoration: none;
+    color: #1F6F43;
+}
+
+
+footer{
+    margin-top: 20px;
+    background-color: #1A5C38;
+    text-align: center;
+}
+
+}
